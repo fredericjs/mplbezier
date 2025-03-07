@@ -1,10 +1,10 @@
 # mplbezier
 
-This module allows you to draw Bezier curves interactively in matplotlib and load them again afterwards. Install it by
-cloning the git repository, navigating into the repository root directory and typing into the console:
+This module allows you to draw Bezier curves interactively in matplotlib and load them again afterwards. 
+You can install the package from PyPi:
 
 ```console
-pip install .
+pip install mplbezier
 ```
 
 Simply import `Bezier` from `mplbezier` and create a new `Bezier` object, which you pass both the `Axis` and a filename 
