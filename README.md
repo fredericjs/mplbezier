@@ -34,4 +34,9 @@ supported to undo your last action.
 Once you are satisfied with your curve, you can remove or comment out the line `b.enable()`. This will remove the
 anchor points from the curve, thereby giving you the final plot.
 
+The curve can be initialized with three keyword arguments:
+- `c` sets the color (default 'black')
+- `lw` sets the linewidth (default 1)
+- `ls` sets the linestyle (default ('-')
+
 ![img.png](example.png)
